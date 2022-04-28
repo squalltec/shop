@@ -1,0 +1,85 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?398dfa4f5a399ba1765889c4c1303d7b") format("truetype"),
+url("./flaticon.woff?398dfa4f5a399ba1765889c4c1303d7b") format("woff"),
+url("./flaticon.woff2?398dfa4f5a399ba1765889c4c1303d7b") format("woff2"),
+url("./flaticon.eot?398dfa4f5a399ba1765889c4c1303d7b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?398dfa4f5a399ba1765889c4c1303d7b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pasta": "\f101",
+    "tomato-sauce": "\f102",
+    "chocolate": "\f103",
+    "honey": "\f104",
+    "coffee": "\f105",
+    "oil": "\f106",
+    "cheeses": "\f107",
+    "biscuit": "\f108",
+    "canned-food": "\f109",
+    "smoothie": "\f10a",
+    "bake": "\f10b",
+    "pet": "\f10c",
+    "laundry-room": "\f10d",
+    "flavor": "\f10e",
+    "milk-bottle": "\f10f",
+);
+
+.flaticon-pasta:before {
+    content: map-get($flaticon-map, "pasta");
+}
+.flaticon-tomato-sauce:before {
+    content: map-get($flaticon-map, "tomato-sauce");
+}
+.flaticon-chocolate:before {
+    content: map-get($flaticon-map, "chocolate");
+}
+.flaticon-honey:before {
+    content: map-get($flaticon-map, "honey");
+}
+.flaticon-coffee:before {
+    content: map-get($flaticon-map, "coffee");
+}
+.flaticon-oil:before {
+    content: map-get($flaticon-map, "oil");
+}
+.flaticon-cheeses:before {
+    content: map-get($flaticon-map, "cheeses");
+}
+.flaticon-biscuit:before {
+    content: map-get($flaticon-map, "biscuit");
+}
+.flaticon-canned-food:before {
+    content: map-get($flaticon-map, "canned-food");
+}
+.flaticon-smoothie:before {
+    content: map-get($flaticon-map, "smoothie");
+}
+.flaticon-bake:before {
+    content: map-get($flaticon-map, "bake");
+}
+.flaticon-pet:before {
+    content: map-get($flaticon-map, "pet");
+}
+.flaticon-laundry-room:before {
+    content: map-get($flaticon-map, "laundry-room");
+}
+.flaticon-flavor:before {
+    content: map-get($flaticon-map, "flavor");
+}
+.flaticon-milk-bottle:before {
+    content: map-get($flaticon-map, "milk-bottle");
+}
